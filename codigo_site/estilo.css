@@ -1,0 +1,176 @@
+/* PRINCIPAIS */
+.cor-especial-body {
+    background: linear-gradient(#fcfcfc 40% ,#B0E0E6);
+    position: relative;
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}   
+
+.cor-especial {
+    color: darkred!important; 
+}
+
+.botao-cor-especial {
+    background-color: darkred;
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: darkred!important;
+}
+
+
+/* CARROSSEL */
+.img-carrossel1 {
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+
+.img-carrossel2 {
+    object-fit: cover;
+    height: 400px;
+} 
+
+.margin-botao-carrossel{
+    margin-bottom: 166px;
+}       
+
+
+/* QUEM SOMOS */
+#quem-somos {
+    padding: 10px;
+}
+
+
+/* SESSÃO COZINHEIRO */
+.section-imagem-cozinheiro {
+    padding-top: 10px;
+    margin-bottom: -36px;
+}
+
+.imagem-cozinheiro {
+    width: 50%;
+}
+
+.texto-img-cozinheiro {
+    margin-left: 324px;
+    font-size: 14px;
+}
+
+.borda-cor-especial-cozinheiro {
+    border-color: darkred !important;
+    border-width: 3px !important;
+    border-radius: 10px !important;
+}
+
+.img-responsive {
+    display: none;
+}
+
+/* RECEITAS */
+#titulo-receitas {
+    padding-top: 56px;
+    margin-bottom: -32px;
+}
+
+.card-largura { 
+    max-width: 18rem;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+.font-titulo-modal-receitas:hover {
+    font-size: 19px;
+}
+
+.font-especial-modal-receitas {
+    font-family: 'Hina Mincho', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.borda-especial-modal-receitas-bottom {
+    border-top: 0!important;
+    border-left: 0!important;
+    border-right: 0!important;
+    border-color: #8B0000!important;
+    border-width: 3px!important;
+}
+
+.borda-especial-modal-receitas-top {
+    border-bottom: 0!important;
+    border-left: 0!important;
+    border-right: 0!important;
+    border-color: #8B0000!important;
+    border-width: 3px!important;
+}
+
+.fundo-modal-receitas {
+    background: linear-gradient(#fcfcfc 50% ,#B0E0E6)!important;
+}
+
+
+/* RODAPÉ */
+.texto-modal-rodape {
+    padding-right: 274px!important;
+    font-size: 21px!important;
+}
+
+.fundo-rodape {
+    background-color: darkred;
+}
+
+
+/* CONTATO */
+.font-modal-contato {
+    font-family: 'Hina Mincho', serif;
+    font-weight: bold;
+}
+
+
+/* RESPONSIVE */
+@media (max-width : 772px) {
+    .img-carrossel1 {
+        object-position: 0 88%;
+        height: 223px;
+    }
+    
+    .img-carrossel2 {
+        object-position: 0 12%;
+        height: 223px;
+    } 
+
+    .imagem-cozinheiro {
+        width: 75%;        
+    }
+    
+    .texto-img-cozinheiro {
+        font-size: 9px;
+        margin-left: 49px;
+    }
+
+    .text-responsive-principal {
+        font-size: 12px;
+        padding: 0px 5px;
+    }
+
+}
+
+@media (max-width: 772px) {
+    .img-carrossel1, .img-carrossel2, .responsive-continer-botoes, .texto-img-cozinheiro {
+        display: none !important;
+    }
+    
+    .img-responsive {
+        width: 100%;
+        display: table;
+        object-position: 0 2px;
+    }
+
+}

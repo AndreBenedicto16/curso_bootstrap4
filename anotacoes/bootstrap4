@@ -1,0 +1,81 @@
+O QUE É?  É um framework
+
+PARA O QUE SERVE? Para facilitar e agilizar o trabalho de desenvolvimento de sites 
+
+
+-------LINK PARA SITE COM RECURSOS DE BOOTSTRAP4-------------
+
+https://getbootstrap.com/docs/5.1/getting-started/introduction/
+
+
+-----COMO INSTALAR O BOOTSTRAP4 NO SEU CÓDIGO (NA ORDEM ABAIXO)-------
+
+<head>
+	<title><title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+______________________
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+        </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+__________NOMES DE PESQUISA E O QUE FAZEM_____________
+
+-FLEX - PARA MUDAR O SEU ELEMENTO DE POSIÇÃO (NO CURSO USEI PARA MUDAR OS LINKS DA NAV DE POSIÇÃO, DA DIREITA PARA ESQUERDA, LINKS DA NAV EX: HOME, SOBRE NÓS, CONTATO etc...)
+
+-TYPOGRAPHY - PARA MUDAR O TAMANHO DA FONTE
+
+-CAROUSEL - PARA CARROSSEL (de imagens)
+
+-SPAC - PARA ESPAÇAMENTO (margin, padding)
+ex: pt-3
+sig: p- padding, t- top, 3- quantidade de margin
+
+-CARD - MODIFICAR A APARENCIA DO ELEMENTO(NO CURSO USEI PARA CRIAR UMA GALERIA DE IMAGENS)
+ 
+-GRID - MEXER COM COLUNAS (no curso usei para deixar as fotos da galeria um do lado das outras)
+
+-FORMS - FORMULARIO
+
+-SCROLL - ancora para rolamento na pagina
+
+
+
+----COMO FAZER UM MODAL(como fiz no curso)------
+
+1- Pesquise no site um  modal que goste
+2- Copie e cole no seu codigo o codigo do modal 
+
+No curso eu queria fazer, quando clicar em contato na barra de navagação apareçesse o model. Então eu precisava linkr o model no contatos
+
+--EX:
+
+-ANTES:
+ NA BARRA DE NAVAEGAÇÃO:
+       <li><a class="nav-link"href="#">contato</a></li>
+ 
+ NA PRIMEIRA DIV DO MODAL:
+ 	<div class="modal fade" id="....." tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ 
+-DEPOIS:
+   NA BARRA DE NAVAEGAÇÃO:
+	 <li><a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">contato</a></li>	
+
+ NA PRIMEIRA DIV DO MODAL:
+ 	<div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">	
+
+__________
+Coloquei o data-bs-toggle="modal" na barra de navegação 
+E tambem coloquei o data-bs-target="#modal-contato" que liga o modal na barra de navegação

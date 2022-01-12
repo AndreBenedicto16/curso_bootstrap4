@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=380,initial-scale=1">
+    <title>Comida é Vida</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+  </head>
+
+  <body class="cor-especial-body">
+    
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand cor-especial fonte-titulo" href="#">Comida é Vida</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <ul class="navbar-nav">
+              <li><a class="nav-link" aria-current="page" href="#carrossel">início</a>
+              <li><a class="nav-link" href="#quem-somos">quem somos</a></li>
+              <li><a class="nav-link" href="#titulo-receitas">receitas</a></li>
+              <li><a class="nav-link" data-bs-toggle= "modal" data-bs-target="#modal-contato" href="#">contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+      <img class="img-responsive" src="src/img/responsive/img-resp-pequeno.jpeg" alt="">
+    <main>
+      <section id="carrossel" class="carrossel-responsive">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-indicators responsive-continer-botoes">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="src/img/carrossel-img1.jpg" class="d-block w-100 img-carrossel1" alt="...">
+              <div class="carousel-caption d-none d-md-block h-50">
+                <h1 class="fonte-titulo display-4">Reaproveite melhor os alimentos!</h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="src/img/carrossel-img2.jpg" class="d-block w-100 img-carrossel2" alt="...">
+              <div class="carousel-caption d-none d-md-block h-50">
+                <h1 class="fonte-titulo display-4">Economize e ganhe em saúde!</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon margin-botao-carrossel" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon margin-botao-carrossel" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>     
+      </section>
+
+      <section id="quem-somos" class="px-5">
+        <h1 class="text-center fonte-titulo cor-especial  pb-3 pt-5">Quem Somos</h1>
+        <p class="text-center text-secondary pt-4">Fundados em 2001 pelo, o Chef italiano <b><i>Giovanni Dante Bianchi</i></b> com um sonho de ser tornar um dos maiores <b>chefes do mundo</b>.</p>
+        <p class="text-center text-secondary">Em 2005 abriu seu primeiro restaurante com o nome <b>il cibo è vita</b> traduzida do italiano para o Português significa <b>comida é vida</b>. Em um bairro pouco povoado, na<b> cidade de Pisa</b>. Na época era pouco conhecido, mas nunca desistiu de seu restaurante.
+        </p>
+        <p class="text-center text-secondary"> Nos últimos anos o Chef <b><i>Giovanni Dante Bianchi</i></b>, veio fazendo bastante sucesso em Pisa, até que conseguiu comprar um <b>gigantesco restaurante</b> no centro da capital de Itália, <b>Roma</b>. Até hoje ele se encontra em Roma com seu <b>fabuloso restaurante</b>, fazendo novos clientes a cada dia.</p>
+        <p class="text-center text-secondary pb-4">Ele é <b>especificado em comidas típicas</b> mais deliciosas pelo mundo, por exemplo, algumas: <i>Feijoada(Brasil), Wurst (Alemanha), Parrillada (Argentina e Uruguai), PadSpaghetti alla carbonara (Itália), Ratatouille (França), Bacalhau (Portugal), Pozole (México)...</i> <strong>Garantimos que fazer o preparo seguindo a receita de um dos nossos sites “comida é vida” o prato ficara apetitoso, e com uma aparência magnifica!</strong></p>
+      </section>
+
+      <section class="section-imagem-cozinheiro">
+        <img src="src/img/restaurant-1284351_1920.jpg" class="border borda-cor-especial-cozinheiro mx-auto d-block imagem-cozinheiro" alt="...">
+      </section>
+
+      <section id="titulo-receitas">
+          <h2 class="text-center fonte-titulo cor-especial pt-3">Receitas para economizar e ganhar saúde</h2> 
+          <p class="text-center text-secondary text-responsive-principal pb-4 pt-2">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar tempo e praticidade</p>
+      </section>
+
+      <section id="card-receitas" class="container-fluid">
+        <div class="row justify-content-center">
+          <article class="card borda-cor-especial card-largura p-0 m-5 col-12 col-md-4">
+              <img src="src/img/receita-abacate.jpg" class="card-img-top card-posicao-imagem" alt="tigela com salada de abacate, vista superior">
+            <div class="card-body">
+              <h4 class="card-title">Tigela de abacate</h4>
+              <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+              <a href="#" class="btn botao-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-receita-tigela-de-abacate">Veja a receita</a>
+            </div>
+          </article>
+
+          <article class="card borda-cor-especial card-largura p-0 m-5 col-12 col-md-4">
+              <img src="src/img/receita-kiwi.jpg" class="card-img-top card-posicao-imagem" alt="tigela com salada de abacate, vista superior">
+            <div class="card-body">
+              <h4 class="card-title">Salada de kiwi</h4>
+              <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+              <a href="#" class="btn botao-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-receita-salada-de-kiwi">Veja a receita</a>
+            </div>
+          </article>
+
+          <article class="card borda-cor-especial card-largura p-0 m-5 col-12 col-md-4">
+              <img src="src/img/receita-mix.jpg" class="card-img-top card-posicao-imagem" alt="prato com mix de vegetais e mão de pessoa adicionando azeite, vista superior">
+            <div class="card-body">
+              <h4 class="card-title">Mix de vegetais</h4>
+              <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+              <a href="#" class="btn botao-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-receita-mix-de-vegetais">Veja a receita</a>
+            </div>
+          </article>
+
+          <article class="card borda-cor-especial card-largura p-0 m-5 col-12 col-md-4">
+              <img src="src/img/receita-pimentoes.jpg" class="card-img-top card-posicao-imagem" alt="prato de salada de pimentões com alguns ingredientes ao lado, vista superior">
+            <div class="card-body">
+              <h4 class="card-title">Pimentões à Juliana</h4>
+              <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+              <a href="#" class="btn botao-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-receita-pimentoes-a-juliana">Veja a receita</a>
+            </div>
+          </article>
+
+          <article class="card borda-cor-especial card-largura p-0 m-5 col-12 col-md-4">
+              <img src="src/img/receita-oriental.jpg" class="card-img-top card-posicao-imagem" alt="tigela com salada de vegetais estilo oriental, vista de cima">
+            <div class="card-body">
+              <h4 class="card-title">Prato oriental</h4>
+              <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+              <a href="#" class="btn botao-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-receita-prato-oriental">Veja a receita</a>
+            </div>
+          </article>
+
+          <article class="card borda-cor-especial card-largura p-0 m-5 col-12 col-md-4">
+              <img src="src/img/receita-beterrabas.jpg" class="card-img-top card-posicao-imagem" alt="tigela com beterrabas e dentes de alho assados em primeiro plano, com ingredientes ao fundo">
+            <div class="card-body">
+              <h4 class="card-title">Beterrabas assadas</h4>
+              <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+              <a href="#" class="btn botao-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-receita-beterrabas-assadas">Veja a receita</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </main>
+    
+      <section id="modal-receitas">
+        <div id="modal-receita-tigela-de-abacate" class="modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content fundo-modal-receitas">
+              <header class="modal-header border borda-especial-modal-receitas-bottom border-1">
+                <h5 class="modal-title fonte-titulo cor-especial">Tigela de abacate</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </header>
+              <main class="modal-body">
+                  <div class="px-5">
+                    <ul class="list-group border borda-especial-modal-receitas">
+                      <li class="list-group-item">
+                        <h6 blueviolet; class="fw-bold pt-2 px-2 font-especial-modal-receitas font-titulo-modal-receitas">INGREDIENTES</h6>
+                      </li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox"  value="" aria-label="..."> 2 abacates pequenos</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 400ml de suco de laranja</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> ½ xícara (chá) de sementes de chia</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Açúcar ou adoçante a gosto</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Sementes de canhamo para finalizar</li>
+                      <li class="list-group-item borda font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Lascas de coco para finalizar</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 50g de mirtilo para finalizar</li>
+                    </ul>
+                  </div>        
+                  <div class="px-5 mt-3">
+                    <ul class="list-group border">
+                      <li class="list-group-item border font-lista-modal-receitas">
+                          <h6 class="fw-bold pt-2 px-2 font-especial-modal-receitas font-titulo-modal-receitas">MODO DE PREPARO</h6>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Em um liquidificador bata o abacate, a chia,o suco de laranja e o açúcar ou adoçante.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Transfira o abacate batido para uma tigela.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Distribua as sementes de canhamo, o coco e o mirtilo por cima do abacate.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Sirva gelado.</li>
+                    </ul>
+                  </div>
+              </main>
+              <footer class="modal-footer border borda-especial-modal-receitas-top">
+
+                  <button type="button" class="btn botao-cor-especial botao-modal-rodape px-4" data-bs-dismiss="modal">Fechar</button>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-receita-salada-de-kiwi" class="modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content fundo-modal-receitas">
+              <header class="modal-header border borda-especial-modal-receitas-bottom border-1">
+                <h5 class="modal-title fonte-titulo cor-especial">Salada de kiwi</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </header>
+              <main class="modal-body">
+                  <div class="px-5">
+                    <ul class="list-group border borda-especial-modal-receitas">
+                      <li class="list-group-item">
+                        <h6 blueviolet; class="fw-bold pt-2 px-2 font-especial-modal-receitas font-titulo-modal-receitas">INGREDIENTES</h6>
+                      </li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox"  value="" aria-label="..."> 4 kiwis</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 3 tomates maduros porém firmes</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Folhas de hortelã</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 200 g de queimo minhas light ou mussarela de búfala</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Azeite de oliva a gosto</li>
+                    </ul>
+                  </div>        
+                  <div class="px-5 mt-3">
+                    <ul class="list-group border">
+                      <li class="list-group-item border font-lista-modal-receitas">
+                          <h6 class="fw-bold pt-2 px-2 font-especial-modal-receitas font-titulo-modal-receitas">MODO DE PREPARO</h6>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Corte os Kiwis em rodelas com aproximadamente 2 cm de espessura.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Faça o mesmo com os tomates e com o queijo.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Disponha em uma travessa os ingredientes da seguinte forma, colocando um em cima do outro: uma rodela (ou fatia) de queijo, uma rodela de kiwi, uma rodela de tomate e por ultimo enfeite com uma ou duas folhas de hortelã.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Na hora de servir, regue com azeite de oliva. Voce terá uma salada visualmente diferente para impressionar os seus convidados.</li>
+                    </ul>
+                  </div>
+              </main>
+              <footer class="modal-footer border borda-especial-modal-receitas-top">
+                <button type="button" class="btn botao-cor-especial px-4" data-bs-dismiss="modal">Fechar</button>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-receita-mix-de-vegetais" class="modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content fundo-modal-receitas">
+              <header class="modal-header border borda-especial-modal-receitas-bottom border-1">
+                <h5 class="modal-title fonte-titulo cor-especial">Mix de vegetais</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </header>
+              <main class="modal-body">
+                  <div class="px-5">
+                    <ul class="list-group border borda-especial-modal-receitas">
+                      <li class="list-group-item">
+                        <h6 blueviolet; class="fw-bold pt-2 px-2 font-especial-modal-receitas font-titulo-modal-receitas">INGREDIENTES</h6>
+                      </li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox"  value="" aria-label="..."> 1 colher (sopa) de óleo</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 dente de alho amassado</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 berinjela média cortada em cubos</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 abobrinha média cortada em cubos</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Meia xícara (chá) de ervilhas frescas</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 tablete de MAGGI® Caldo Legumes</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Meia xícara (chá) de água</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 3 folhas de acelga fatiadas</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 2 colheres (sopa) de cebolinha-verde picada</li>
+                    </ul>
+                  </div>        
+                  <div class="px-5 mt-3">
+                    <ul class="list-group border">
+                      <li class="list-group-item border font-lista-modal-receitas">
+                          <h6 class="fw-bold pt-2 px-2 font-especial-modal-receitas font-titulo-modal-receitas">MODO DE PREPARO</h6>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Em uma panela aqueça o óleo e doure o alho.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Junte a cenoura e a berinjela e refogue.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Acrescente a abobrinha e as ervilhas e junte o MAGGI Caldo dissolvido na água.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Cozinhe até que os vegetais estejam levemente macios.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Junte a acelga e tampe a panela rapidamente para que amoleça.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Acrescente a cebolinha e sirva a seguir.</li>
+                    </ul>
+                </div>
+              </main>
+              <footer class="modal-footer border borda-especial-modal-receitas-top">
+                <button type="button" class="btn botao-cor-especial px-4" data-bs-dismiss="modal">Fechar</button>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-receita-pimentoes-a-juliana" class="modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content fundo-modal-receitas">
+              <header class="modal-header border borda-especial-modal-receitas-bottom border-1">
+                <h5 class="modal-title fonte-titulo cor-especial">Pimentões à Juliana</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </header>
+              <main class="modal-body">
+                  <div class="px-5">
+                    <ul class="list-group border borda-especial-modal-receitas">
+                      <li class="list-group-item">
+                        <h6 blueviolet; class="fw-bold pt-2 px-2 font-especial-modal-receitas font-titulo-modal-receitas">INGREDIENTES</h6>
+                      </li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox"  value="" aria-label="..."> 8 pimentões verdes (médio)</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 kg de carne moída</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 2 pães adormecidos picados em cubos médios</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 2 ovos</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 8 colheres de queijo parmesão ralado</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Molho de tomate de sua preferência</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Sal e tempero a gosto</li>
+                    </ul>
+                  </div>        
+                  <div class="px-5 mt-3">
+                    <ul class="list-group border">
+                      <li class="list-group-item border font-lista-modal-receitas">
+                          <h6 class="fw-bold pt-2 px-2 font-especial-modal-receitas font-titulo-modal-receitas">MODO DE PREPARO</h6>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Retire as tampas dos pimentões e reserve.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Retire as sementes e reserve.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Prepare o molho como de costume.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Refogue a carne moída como de costume e com os temperos que desejar (cebola picadinha, pimenta do reino, sal e alho).</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Acrescente os pães, os ovos, e o queijo ralado.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Mexa até que os ovos estejam cozidos.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Recheie os pimentões e feche-os com as tampas, (se necessário coloque um palito para prender a tampa).</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Em uma panela coloque os pimentões e cubra-os com molho de tomates.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Eles devem ficar totalmente cobertos. Deixe ferver até que os pimentões estejam cozidos.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Na hora de servir salpique um pouco de queijo ralado e cheiro verde.</li>
+                  </div>
+              </main>
+              <footer class="modal-footer border borda-especial-modal-receitas-top">
+                <button type="button" class="btn botao-cor-especial px-4" data-bs-dismiss="modal">Fechar</button>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-receita-prato-oriental" class="modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content fundo-modal-receitas">
+              <header class="modal-header border borda-especial-modal-receitas-bottom border-1">
+                <h5 class="modal-title fonte-titulo cor-especial">Prato oriental / Yakisoba</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </header>
+              <main class="modal-body">
+                  <div class="px-5">
+                    <ul class="list-group border borda-especial-modal-receitas">
+                      <li class="list-group-item">
+                        <h6 blueviolet; class="fw-bold pt-2 px-2 font-especial-modal-receitas font-titulo-modal-receitas">INGREDIENTES</h6>
+                      </li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox"  value="" aria-label="..."> 1 pacote 500g de macarrão para yakisoba</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> ½ couve-flor média</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> ½ brócolis japonês</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 cebola grande</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 pimentão verde</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 pimentão vermelho</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 pimentão amarelo</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 bandeja de cogumelo paris</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> ½ kg de filé ou alcatra</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> ½ kg de peito de frango</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 bandeja de cogumelos (shiitake ou shimeji)</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Molho pronto para yakisoba</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Óleo de soja</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Óleo de gergelim</li>  
+                    </ul>
+                  </div>        
+                  <div class="px-5 mt-3">
+                    <ul class="list-group border">
+                      <li class="list-group-item border font-lista-modal-receitas">
+                          <h6 class="fw-bold pt-2 px-2 font-especial-modal-receitas font-titulo-modal-receitas">MODO DE PREPARO</h6>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Cozinhe o macarrão e escorra.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Refogue a carne bovina cortada em tiras com o peito de frango em cubos.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Acrescente às carnes o molho pronto para yakisoba, conforme as instruções do fabricante.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Coloque o macarrão que já está cozido em uma panela wok (pode ser uma frigideira grande) com um fio de óleo.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Deixe o macarrão fritar em fogo baixo, mexendo de vez em quando, até que fique crocante e corado e depois coloque-o na travessa em que será servido.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Regue o macarrão com um pouco de óleo de gergelim.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Vá refogando os legumes já cortados, um tipo de cada vez.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Frite-os rapidamente, apenas o suficiente para que murchem um pouco, mas ainda estejam crocantes.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Retire os legumes e coloque-os sobre o macarrão, uns sobre os outros, espalhando de forma a ficar com aspecto bonito.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Por fim, despeje o molho que já está com as carnes por cima de tudo e sirva bem quente.</li>
+                  </div>
+              </main>
+              <footer class="modal-footer border borda-especial-modal-receitas-top">
+                <button type="button" class="btn botao-cor-especial px-4" data-bs-dismiss="modal">Fechar</button>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-receita-beterrabas-assadas" class="modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content fundo-modal-receitas">
+              <header class="modal-header border borda-especial-modal-receitas-bottom border-1">
+                <h5 class="modal-title fonte-titulo cor-especial">Beterrabas assadas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </header>
+              <main class="modal-body">
+                  <div class="px-5">
+                    <ul class="list-group border borda-especial-modal-receitas">
+                      <li class="list-group-item">
+                        <h6 blueviolet; class="fw-bold pt-2 px-2 font-especial-modal-receitas font-titulo-modal-receitas">INGREDIENTES</h6>
+                      </li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox"  value="" aria-label="..."> 2 beterrabas grandes</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 fio generoso de azeite</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Ervas secas (utilizei ervas de Provence)</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 pitada de sal</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 cebola roxa</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 1 laranja</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Queijo branco em pedacinhos</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> 300g de salsinha</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Sal, pimenta do reino e azeite para temperar</li>
+                    </ul>
+                  </div>        
+                  <div class="px-5 mt-3">
+                    <ul class="list-group border">
+                      <li class="list-group-item border font-lista-modal-receitas">
+                          <h6 class="fw-bold pt-2 px-2 font-especial-modal-receitas font-titulo-modal-receitas">MODO DE PREPARO</h6>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Coloque o forno para aquecer. Descasque e corte as beterrabas e a cebola em meias luas. Pegue um pedaço grande de papel alumínio e forre um refratário. Coloque as beterrabas e cebolas no certo. Derrame um fio generoso de azeite por todos os pedaços, espalhe um pouco de ervas secas e uma pitada de sal. Feche o papel alumínio, selando bem. Leve ao forno médio (180 graus), por uns 30 a 40 minutos, até a beterraba ficar cozida, mas ainda firme.
+                        Retire do forno e abra o papel alumínio com cuidado. Deixe esfriando enquanto prepara os demais ingredientes.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Com ajuda de uma boa faca e uma tábua, retire toda a casca e a parte branca de uma laranja, mantendo somente a polpa. Corte os gomos de comprido, bem rente às divisões que existem entre eles. Reserve.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Esprema o que sobrar da laranja em uma tigela.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Corte grosseiramente um pouco de salsinha e adicione ao caldo da laranja. Acrescente também um fio de azeite e uma pitada de sal e pimenta do reino e misture bem. Esse será o molho da salada.</li>
+                      <li class="list-group-item border font-lista-modal-receitas">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="..."> Assim que as beterrabas e cebola estiverem quase frias, adicione-as à tigela com o molho e dê uma boa misturada. Na hora de servir, espalhe os gomos da laranja e pedacinhos de queijo branco sobre a salada.</li>
+                  </div>
+              </main>
+              <footer class="modal-footer border borda-especial-modal-receitas-top">
+                <button type="button" class="btn botao-cor-especial px-4" data-bs-dismiss="modal">Fechar</button>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="modal-contato"class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <dialog class="modal-content fundo-modal-receitas">
+            <header class="modal-header">
+              <h5 class="modal-title fonte-titulo cor-especial fs-4" id="exampleModalLabel">Entre em contato</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </header>
+            <main class="modal-body border borda-cor-especial border-end-0 border-start-0">
+              <form>
+                <div class="form-group">
+                  <label for="formGroupExampleInput" class="pb-2 font-modal-contato cor-especial fs-5">Nome completo</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira seu nome">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1" class="pb-2 pt-2 font-modal-contato cor-especial fs-5">Endereço de e-mail</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                </div>
+                <div class="form-group pb-2">
+                  <label for="exampleFormControlTextarea1"></label>
+                  <label for="exampleFormControlInput1" class="pb-2 pt-2 font-modal-contato cor-especial fs-5">Mensagem</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Insira aqui seu comentário" rows="3"></textarea>
+                </div>
+              </form>
+            </main>
+            <footer class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn botao-cor-especial">Enviar</button>
+            </footer>
+          </dialog>
+        </div>
+      </div>
+
+      <footer class="fundo-rodape p-3">
+        <p class="text-light m-0 text-center">E-mail: <a class="text-light" href="">comida.e.vida@gmail.com</a></p>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>
